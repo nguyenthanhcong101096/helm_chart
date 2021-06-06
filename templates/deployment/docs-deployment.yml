@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: docs
-        image: {{ .Values.image.repository }}
+        image: {{ .Values.image.repository }}:{{ .Chart.AppVersion }}
         ports:
-        - containerPort: 3000
+        - containerPort: 5000
