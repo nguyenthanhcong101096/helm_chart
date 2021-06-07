@@ -16,4 +16,4 @@ spec:
       - name: docs
         image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
         ports:
-        - containerPort: 5000
+        - containerPort: 3000
