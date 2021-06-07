@@ -5,10 +5,10 @@
 replicas: 2
 
 image:
-  repository: congttl/twitter
+  repository: congttl/docs
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.21.0"
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
